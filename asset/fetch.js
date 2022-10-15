@@ -53,4 +53,3 @@ eventB1.addEventListener('click', async () => {
   }
 });
 
-const forLoop ()
