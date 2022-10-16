@@ -14,7 +14,8 @@ const retrieve = async (url) => {
         .then((data) => {
             console.log(data);
             console.log(data.results);
-            return data.results;
+            // return data.results;
+            return data;
         })
         .catch((error) => console.log(error));
 
